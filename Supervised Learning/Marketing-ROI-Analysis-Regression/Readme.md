@@ -37,6 +37,7 @@ The regression model yields coefficients indicating the effectiveness of each ca
 ## Insights and Impact 💡
 
 Results identify the most effective marketing strategies by hospital type, guiding decisions on where to increase or decrease marketing spend. This targeted approach aims to optimize marketing budgets and enhance campaign efficiency.
+![image](https://github.com/user-attachments/assets/8d12ef50-0927-444c-a775-d5f7d41fb18e)
 
 ## Conclusion 📘
 
