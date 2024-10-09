@@ -18,8 +18,24 @@ The dataset `wholesale_clients.csv` includes purchasing details of clients categ
 - Applied the KMeans clustering algorithm on the cleaned and scaled data to group clients into meaningful clusters based on their purchasing behavior.
 - The number of clusters was determined by analyzing the inertia and silhouette scores, selecting the optimal balance for detailed yet distinct grouping.
 
+![image](https://github.com/user-attachments/assets/38557ade-9f82-4c54-b703-35fc7f407dad)
+
+- Cluster 0 (Low Spend Group): Characteristics: This cluster generally shows low spending across all categories, with no particularly strong emphasis on any single product category. Suggested Name: "Minimal Spenders" or "Low Volume Shoppers"
+- Cluster 1 (Diverse High Spend Group): Characteristics: This group spends heavily across several categories, particularly on 'Milk', 'Grocery', and 'Detergents_Paper'. They also show significant spending in 'Delicassen'. Suggested Name: "Broad Range High Spenders" or "Versatile Big Spenders"
+- Cluster 2 (Selective High Spend Group): Characteristics: Members of this cluster show notably high expenditure specifically in the 'Delicassen' category, with moderate to low spending in other areas. Suggested Name: "Delicatessen Enthusiasts" or "Specialty Goods Shoppers"
+- Cluster 3 (Fresh and Frozen Focus Group): Characteristics: This cluster has high spending in 'Fresh' and 'Frozen' categories, indicating a preference for perishable and frozen goods, possibly suggesting a focus on quality or freshness. Suggested Name: "Fresh and Frozen Food Lovers" or "Perishable Goods Preferers"
+
+- Cluster 0: "Basic Buyers"
+- Cluster 1: "Super Shoppers"
+- Cluster 2: "Gourmet Gurus"
+- Cluster 3: "Fresh Favorites"
 ### 3. **Visualization with PCA** 🌐
 - Performed Principal Component Analysis (PCA) to reduce dimensionality and visualize the data in a two-dimensional space, aiding in understanding the spread and grouping of clusters.
+
+![image](https://github.com/user-attachments/assets/d8261886-1074-49e7-81f8-cac01ea92b0c)
+
+- Component 1: Higher spending on non-perishables (Milk, Grocery, Detergents).
+- Component 2: Higher spending on perishables (Fresh, Frozen).
 
 ## Results
 - Identification of distinct customer segments that exhibit unique purchasing behaviors, which can be targeted with tailored marketing strategies.
